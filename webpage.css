@@ -1,0 +1,133 @@
+
+body{
+    
+    background-image: url('./codegnan.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100%;
+    margin: 0 ;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 0px 10px;
+    
+}
+.c{
+    font-weight: 900;
+    color: rgb(239, 50, 50);
+    font-size: larger;
+}
+
+.logo{
+    color:aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+    
+}
+nav ul li{
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.container{
+    
+    height: 80vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    
+}
+.left{
+    width: 45%;
+    
+    height: 100%;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+.right{
+    width: 45%;
+    
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+footer{
+    background-color: rgba(22, 22, 22, 0.858);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    width: 100%;
+    padding: 0px 10px;
+    color: aliceblue;
+}
+.left table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    table-layout: fixed;
+    
+    
+}
+.left th{
+    background-color: rgba(78, 78, 179, 0.2);
+    color: azure;
+    font-weight: 900;
+    padding: 10px;
+    
+}
+.left td{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+    color: aliceblue;
+    font-weight: 600;
+    border-bottom: 1px solid blueviolet;
+    
+}
+.right .total{
+    
+    padding: 10px;
+    background-color :gold;
+    border-radius: 10px;
+    text-align: center;
+    color: darkorchid;
+    width: 80%;
+    
+}
+.right .present{
+
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 80%;
+    color: aliceblue;
+    text-align: center;
+
+}
+
